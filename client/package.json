@@ -24,8 +24,8 @@
     "test:watch": "NODE_ICU_DATA=\"$(pwd)/node_modules/full-icu\" npm run -s test:unit -- --watch"
   },
   "dependencies": {
-    "ag-grid-community": "^23.2.1",
-    "ag-grid-vue": "^23.2.1",
+    "ag-grid-community": "^33.3.2",
+    "ag-grid-vue": "^31.3.4",
     "chart.js": "^2.9.3",
     "core-js": "^3.8.2",
     "cronstrue": "^1.122.0",
@@ -40,7 +40,7 @@
     "register-service-worker": "^1.7.2",
     "uuid": "^8.3.0",
     "v-clipboard": "^2.2.3",
-    "vue": "^2.6.12",
+    "vue": "^3.0.0",
     "vue-chartjs": "^3.5.1",
     "vue-class-component": "^7.2.5",
     "vue-drag-resize": "^1.4.2",
@@ -54,7 +54,7 @@
   },
   "optionalDependencies": {
     "@vue/cli-plugin-e2e-cypress": "^5.0.1",
-    "cypress": "^9.5.0",
+    "cypress": "^14.4.1",
     "cypress-file-upload": "^5.0.8"
   },
   "devDependencies": {
@@ -103,7 +103,7 @@
     "vue-cli-plugin-tailwind": "^2.2.18",
     "vue-cli-plugin-vuetify": "^2.4.6",
     "vue-inline-svg": "^2.1.0",
-    "vue-template-compiler": "^2.6.14",
+    "vue-template-compiler": "^2.7.16",
     "vuetify-loader": "^1.7.3"
   },
   "eslintConfig": {
